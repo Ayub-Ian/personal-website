@@ -2,7 +2,7 @@ import React from 'react'
 
 
 function ServiceItem({ service }) {
-    const { id, title, description, icon } = service
+    const { id, title, description, icon, book } = service
     const classMapper = {
         1 : "service-01",
         2 : "service-02",
@@ -23,7 +23,7 @@ function ServiceItem({ service }) {
             {description}
           </p>
         </div>
-        <a href='#get' className="about-service-cta">Get this service</a>
+        <a href={book} target='_blank'  className="about-service-cta">Get this service</a>
       </div>
   )
 }
