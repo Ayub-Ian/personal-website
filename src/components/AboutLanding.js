@@ -61,6 +61,7 @@ function AboutLanding() {
           </div>
         </a>
       </div>
+
     </div>
   );
 }
