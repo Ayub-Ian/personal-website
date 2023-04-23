@@ -23,7 +23,7 @@ function ServiceItem({ service }) {
             {description}
           </p>
         </div>
-        <a href={book} target='_blank'  className="about-service-cta">Get this service</a>
+        <a href={book} target='_blank' rel='noreferrer'  className="about-service-cta">Get this service</a>
       </div>
   )
 }
