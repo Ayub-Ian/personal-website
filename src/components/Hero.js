@@ -1,6 +1,6 @@
 
 
-function AboutLanding() {
+function Hero() {
   return (
     <div className="about-landing">
 
@@ -15,9 +15,11 @@ function AboutLanding() {
         </p>
       </div>
     
+    
+    <img className="profile" src="https://framerusercontent.com/images/hWfrwC639tk5J0DYnbI4MobQ.png?scale-down-to=1024" alt="profile" />
 
     </div>
   );
 }
 
-export default AboutLanding;
+export default Hero;

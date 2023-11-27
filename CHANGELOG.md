@@ -3,3 +3,4 @@
 - Include header navigation links i.e `about me`, `work`, `contact`
 - Remove unnecessary static files i.e images
 - Remove unnecessary CSS classes
+- Implement copy email functionality
